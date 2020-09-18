@@ -117,7 +117,9 @@
 		margin-top: 50px;
 	}
 	.in-Bottom{
-		
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.pink{
 		width: 70px;
@@ -132,7 +134,7 @@
 		display: inline-block;
 		box-sizing: border-box;
 		float: left;
-		box-shadow: 0 0 5px black;
+		box-shadow: 2px 2px 2px #D8D8D8;
 		flex: 100px ;
 		/* margin-left: 60px; */
 		/* margin-top: 30px; */
@@ -185,7 +187,7 @@
 		margin: 0 auto;
 		margin-left: 0px;
 		/* text-align: center; */
-		line-height: 100px;
+		line-height: 0px;
 		/* padding-left: 20px; */
 	}
 	.base{
@@ -222,28 +224,29 @@
 	.button-small{
 		background-color:#FFBF00;
 		border-radius: 10px;
+		border: 1px white solid;
 		
 	}
 	.out-list{
 		/* border: 3px red solid; */
 		display: inline-block;
-		width: 40%;
+		width: 395px;
 		/* height: 300px; */
 		margin-top: 20px;
-		margin-left: 80px;
+		margin-left: 5px;
 	}
 	.out-list-left{
 		display: inline-block;
-		width: 40%;
+		width: 395px;
 		margin-top: 20px;
 		margin-left: 0px;
 		/* box-shadow: 0 0 5px black; */
 	}
 	.out-list-right{
 		display: inline-block;
-		width: 40%;
+		width: 395px;
 		margin-top: 20px;
-		margin-left: 80px;
+		margin-left: 5px;
 	}
 	.list-up{
 		border: 1px white solid;
@@ -252,7 +255,7 @@
 		display: inline-block;
 		box-sizing: border-box;
 		float: left;
-		box-shadow: 0 0 5px black;
+		box-shadow: 2px 2px 2px #D8D8D8;
 		flex: 100px ;
 		width: 395px;
 		height: 120px;

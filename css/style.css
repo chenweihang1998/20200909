@@ -37,6 +37,7 @@
 	article small{
 		position: relative;
 		background-color: #FFBF00;
+		color: #FFFFFF;
 		font-size: 13px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -260,6 +261,7 @@
 	}
 	.button-small{
 		background-color: #FFBF00;
+		color: #FFFFFF;
 		position: relative;
 		font-size: 11px;
 		font-weight: 700;

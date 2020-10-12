@@ -10,10 +10,6 @@
 	header{
 		padding-top: 80px;
 		padding-bottom: 80px;
-		position: relative;
-		margin: 0 auto;
-		padding: 0 80px;
-		width: 100%;
 		max-width: 1020px;
 	}
 	body{
@@ -24,6 +20,7 @@
 		 
 	}
 	.center{
+		margin-top: 70px;
 		position: relative;
 		align-items: center;
 		z-index: 2;
@@ -118,6 +115,7 @@
 		font-size: 16px;
 		font-weight: 500;
 		opacity: .7;
+		
 	}
 
 	
@@ -157,13 +155,15 @@
 		font-weight: bold;
 	}
 
-	.requires small{
-		font-size: 15px;
-		color: darkgray;
+	header p.download small{
+		font-size: 16px;
+		font-weight: 500;
+		color: #01161e;
+		opacity: .7;
 		display: block;
-		padding-bottom: 80px;
+		
 	}
-	.requires small em{
+	header p.download small em{
 		font-style: normal;
 		opacity: .5;
 	}
@@ -634,3 +634,4 @@
 	section .center .credit a svg{
 		margin-right: 4px;
 	}
+	

@@ -112,12 +112,6 @@
 		font-weight: 700;
 		padding-bottom: 4px;
 	}
-	header p.download small{
-		font-size: 16px;
-		font-weight: 500;
-		opacity: .7;
-		
-	}
 
 	
 	body header h1{
@@ -148,7 +142,7 @@
 	header p.download small{
 		font-size: 16px;
 		font-weight: 500;
-		color: #01161e;
+		
 		opacity: .7;
 		display: block;
 		

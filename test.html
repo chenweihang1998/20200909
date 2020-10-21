@@ -3,9 +3,18 @@
   <head >
     <meta charset="utf-8">
     <title>Flexbox 0 — starting code</title>
-	 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-      
+	
+	 <link rel="stylesheet" type="text/css" href="css/style.css" id="css"/>
+     
+     <script type="text/javascript">
+      function change(a){
+      var css=document.getElementById("css");
+      if (a==1)
+      css.setAttribute("href","css/style.css");
+      if (a==2)
+      css.setAttribute("href","css/style2.css");
+      }
+     </script>
 
   </head>
   <body >
@@ -66,8 +75,9 @@
 					Requires macOS Catalina
 					<em>(10,15+)</em>
 				</small>
-			  
 			  </p>
+			  <a href="#" onclick="change(1)">style.css</a>
+			<a href="#" onclick="change(2)">style2.css</a>
 		  </header>
 	  
 	  <section>
